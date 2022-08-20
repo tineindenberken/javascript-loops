@@ -56,7 +56,12 @@ for (let i = 0; i < 16; i++) {
 // ==========================================
 for (let i = 0; i < 10; i++) {
     if (i < 3) {
-        console.log(">>")
-
+        console.log(i);
+    }
+    if (i >= 3 && i < 6) {
+        console.log('>' + i);
+    }
+    if (i >= 6) {
+        console.log('>>' + i)
     }
 }
